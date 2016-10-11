@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install git -y
 sudo apt-get install fish -y
 curl -L http://get.oh-my.fish | fish
-sudo apt-get install python-pip git
+sudo apt-get install python-pip -y
 cp ~/.profile ~/.profile_backup
 echo "" >> ~/.profile
 echo 'if [ -d "$HOME/.local/bin" ]; then' >> ~/.profile
