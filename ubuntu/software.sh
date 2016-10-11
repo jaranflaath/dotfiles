@@ -19,3 +19,5 @@ mkdir -p ~/.fonts/ && mv PowerlineSymbols.otf ~/.fonts/
 fc-cache -vf ~/.fonts
 mkdir -p ~/.config/fontconfig/conf.d/ && mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 omf install bobthefish
+echo "" >> ~/.config/fish/config.fish
+echo 'set -g theme_date_format "+%H:%M:%S"' >> ~/.config/fish/config.fish
