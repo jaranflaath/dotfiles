@@ -7,5 +7,3 @@ git config --global credential.helper "cache --timeout 36000"
 git config --global branch.autosetuprebase always
 git config --global push.default upstream
 git config --global core.excludesfile ~/.gitignore
-git config --global diff.tool meld
-git config --global merge.tool meld
