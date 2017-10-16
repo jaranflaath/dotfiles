@@ -12,3 +12,4 @@ git config --global push.default upstream
 git config --global core.excludesfile ~/.gitignore
 git config --global user.name "Jaran Flaath"
 git config --global user.email jaran.flaath@gmail.com
+git config --global fetch.prune true
