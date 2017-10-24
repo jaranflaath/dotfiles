@@ -11,3 +11,6 @@ echo ""
 echo "Setting JAVA_HOME"
 echo "" >> ~/.bash_profile
 echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.bash_profile
+
+echo "" >> ~/.zshrc
+echo 'export PATH="/Users/jaran/Library/Android/sdk/tools/:$PATH"' >> ~/.zshrc
