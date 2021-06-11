@@ -1,0 +1,1 @@
+set -g theme_date_format "+%H:%M:%S"
